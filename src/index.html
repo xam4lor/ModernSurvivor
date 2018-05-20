@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>ModernSurvivor</title>
+        <link rel="stylesheet" href="css/main-css.css">
+    </head>
+
+    <body onload="launchGame();">
+        <div id="game" style="left: 0; top: 0; position: absolute;">
+            <div id="loading">
+            	<p class="loading_text">Chargement en cours ... Veuillez patienter.</p>
+            </div>
+
+            <div id="text-area" class="text-area" style="display: none;">
+                <div class="text-box">
+                    <div id="text-box"></div>
+                    <div class="text-continue"></div>
+                </div>
+            </div>
+
+            <div id="entities"></div>
+            <div id="tiles"></div>
+        </div>
+
+
+        <script src="/script/ErrorHandler.js"></script>
+        <script src="/script/LevelContainer.js"></script>
+        <script src="/script/Tiles.js"></script>
+
+
+        <script src="/script/entities/Entity.js"></script>
+        <script src="/script/entities/player/Player.js"></script>
+        <script src="/script/entities/pnj/RoundWalker.js"></script>
+
+
+        <script src="/script/tiles/Tile.js"></script>
+
+        <script src="/script/tiles/Null.js"></script>
+        <script src="/script/tiles/Test.js"></script>
+        <script src="/script/tiles/Door.js"></script>
+
+
+        <script src="/script/levels/Level.js"></script>
+        <script src="/script/levels/HerosHouseFloor0.js"></script>
+        <script src="/script/levels/TestCity.js"></script>
+
+        <script src="/script/Game.js"></script>
+    </body>
+</html>

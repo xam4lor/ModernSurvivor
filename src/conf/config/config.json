@@ -1,0 +1,8 @@
+{
+    "LANGUAGE" : "fr_FR",
+    "TILE_SIZE" : 32,
+    "TEXT_SPEED_DISPLAY" : 4,
+    "FPS" : 60,
+    "INTERRACT_CODE" : 13,
+    "AUTO_MOVING_CHANCES" : 0.001
+}

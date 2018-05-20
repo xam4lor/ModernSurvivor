@@ -1,0 +1,31 @@
+{
+    "entity" : {
+        "TESTING_TEXT" : {
+            "0" : "Ceci est un premier test.",
+            "1" : "Et ça un deuxième.",
+            "2" : "Finissons avec ça, le troisième."
+        }
+    },
+    "errors" : {
+        "DISPLAY_EMPTY_ARRAY" : "Can't display an empty text array.",
+        "ZINDEX_TILE_ERROR" : {
+            "0" : "zIndex of tile '",
+            "1" : "' must be 0 (for background tiles), 1 (for upper background tiles) or 200 (for objects above the entities) and is at "
+        },
+        "TILE_UNDEFINED_X_Y" : {
+            "0" : "Tile at (",
+            "1" : ";",
+            "2" : ") doesn't exist."
+        },
+        "MOVE_ENTITY_OUTSIDE_WORLD" : {
+            "X" : {
+                "0" : "Trying to move the entity at x=",
+                "1" : " outside of the level with width="
+            },
+            "Y" : {
+                "0" : "Trying to move the entity at y=",
+                "1" : " outside of the level with height="
+            }
+        }
+    }
+}

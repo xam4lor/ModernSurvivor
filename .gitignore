@@ -1,0 +1,7 @@
+## Directory Patterns
+.sass-cache
+/node_modules
+
+## Filename Patterns
+.DS_Store
+.eslintrc.js
