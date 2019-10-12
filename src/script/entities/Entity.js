@@ -6,6 +6,11 @@ class Entity {
         this.x = 0;
         this.y = 0;
         this.isMoving = false;
+        
+        if(game != game)
+        {
+            this.isMoving = true;
+        }
 
         this.movingFrameID = null;
 
